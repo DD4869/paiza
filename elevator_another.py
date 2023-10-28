@@ -3,6 +3,7 @@ def elevator_another():
     if 1 <= N <= 100:
         total_move = 0
         current_floor = 1
+        # '_' is used as a throwaway variable (not used in the loop)
         for _ in range(N):
             next_floor = int(input())
             f_i = next_floor
